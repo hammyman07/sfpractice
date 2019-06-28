@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Loss_Reason_Detail__c</fullName>
+    <externalId>false</externalId>
+    <label>Loss Reason Detail</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Loss_Reason__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Service Not Offered</fullName>
+                <default>false</default>
+                <label>Service Not Offered</label>
+            </value>
+            <value>
+                <fullName>Size Large</fullName>
+                <default>false</default>
+                <label>Size Large</label>
+            </value>
+            <value>
+                <fullName>Size Small</fullName>
+                <default>false</default>
+                <label>Size Small</label>
+            </value>
+            <value>
+                <fullName>Not Manufacturable</fullName>
+                <default>false</default>
+                <label>Not Manufacturable</label>
+            </value>
+            <value>
+                <fullName>Material</fullName>
+                <default>false</default>
+                <label>Material</label>
+            </value>
+            <value>
+                <fullName>Finish</fullName>
+                <default>false</default>
+                <label>Finish</label>
+            </value>
+            <value>
+                <fullName>Lead Time</fullName>
+                <default>false</default>
+                <label>Lead Time</label>
+            </value>
+            <value>
+                <fullName>Exceeds Comfort of Engineering / Project Team</fullName>
+                <default>false</default>
+                <label>Exceeds Comfort of Engineering / Project Team</label>
+            </value>
+            <value>
+                <fullName>No Budget</fullName>
+                <default>false</default>
+                <label>No Budget</label>
+            </value>
+            <value>
+                <fullName>Higher than Budget</fullName>
+                <default>false</default>
+                <label>Higher than Budget</label>
+            </value>
+            <value>
+                <fullName>Won&#39;t Be Project Progress for 9+ Months</fullName>
+                <default>false</default>
+                <label>Won&#39;t Be Project Progress for 9+ Months</label>
+            </value>
+            <value>
+                <fullName>Competitor</fullName>
+                <default>false</default>
+                <label>Competitor</label>
+            </value>
+            <value>
+                <fullName>In House</fullName>
+                <default>false</default>
+                <label>In House</label>
+            </value>
+            <value>
+                <fullName>Entire Project Canceled</fullName>
+                <default>false</default>
+                <label>Entire Project Canceled</label>
+            </value>
+            <value>
+                <fullName>Phone Number Given</fullName>
+                <default>false</default>
+                <label>Phone Number Given</label>
+            </value>
+            <value>
+                <fullName>Phone Number Not Given</fullName>
+                <default>false</default>
+                <label>Phone Number Not Given</label>
+            </value>
+            <value>
+                <fullName>Potential Partner</fullName>
+                <default>false</default>
+                <label>Potential Partner</label>
+            </value>
+            <value>
+                <fullName>Price Shopping</fullName>
+                <default>false</default>
+                <label>Price Shopping</label>
+            </value>
+            <value>
+                <fullName>Relationship</fullName>
+                <default>false</default>
+                <label>Relationship</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Capabilities</controllingFieldValue>
+            <valueName>Service Not Offered</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Capabilities</controllingFieldValue>
+            <valueName>Size Large</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Capabilities</controllingFieldValue>
+            <valueName>Size Small</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Capabilities</controllingFieldValue>
+            <valueName>Not Manufacturable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Capabilities</controllingFieldValue>
+            <valueName>Material</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Capabilities</controllingFieldValue>
+            <valueName>Finish</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Capabilities</controllingFieldValue>
+            <valueName>Lead Time</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Capabilities</controllingFieldValue>
+            <valueName>Exceeds Comfort of Engineering / Project Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Budgetary</controllingFieldValue>
+            <valueName>No Budget</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Budgetary</controllingFieldValue>
+            <valueName>Higher than Budget</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Budgetary</controllingFieldValue>
+            <valueName>Won&#39;t Be Project Progress for 9+ Months</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pricing</controllingFieldValue>
+            <valueName>Competitor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pricing</controllingFieldValue>
+            <valueName>In House</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pricing</controllingFieldValue>
+            <valueName>Entire Project Canceled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>No Response</controllingFieldValue>
+            <valueName>Phone Number Given</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>No Response</controllingFieldValue>
+            <valueName>Phone Number Not Given</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Competitor</controllingFieldValue>
+            <valueName>Potential Partner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Competitor</controllingFieldValue>
+            <valueName>Price Shopping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Competitor</controllingFieldValue>
+            <valueName>Relationship</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

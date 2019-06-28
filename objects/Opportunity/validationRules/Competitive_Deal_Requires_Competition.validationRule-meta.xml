@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competitive_Deal_Requires_Competition</fullName>
+    <active>true</active>
+    <description>When &#39;Competitive Deal&#39; = TRUE, require &#39;Competition&#39; field be completed</description>
+    <errorConditionFormula>AND( Competitive_Deal__c = TRUE, ISNULL(Competition__c ))</errorConditionFormula>
+    <errorDisplayField>Competition__c</errorDisplayField>
+    <errorMessage>Competition is required for a Competitive Deal</errorMessage>
+</ValidationRule>

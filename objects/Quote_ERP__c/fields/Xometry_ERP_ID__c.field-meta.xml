@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Xometry_ERP_ID__c</fullName>
+    <caseSensitive>true</caseSensitive>
+    <description>Unique Qoute ID created in Xometry ERP</description>
+    <externalId>true</externalId>
+    <label>Xometry_ERP_ID</label>
+    <length>12</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

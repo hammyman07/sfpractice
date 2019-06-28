@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Close_Date_locked_when_Opp_is_Closed_Won</fullName>
+    <active>true</active>
+    <description>When an Opportunity is set as &#39;Closed Won&#39;, Closed Date can not be changed</description>
+    <errorConditionFormula>( ISPICKVAL( StageName , &#39;Closed Won&#39;) &amp;&amp; ISCHANGED( CloseDate ))</errorConditionFormula>
+    <errorMessage>Close Date can not be changed for Closed Won Opps</errorMessage>
+</ValidationRule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quote_ERP_Created_Date__c</fullName>
+    <description>The date the quote was created in the ERP system</description>
+    <externalId>false</externalId>
+    <label>Quote ERP Created Date</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>
